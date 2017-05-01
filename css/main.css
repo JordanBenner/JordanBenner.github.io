@@ -1,0 +1,26 @@
+body, html {
+  height: : 100%;
+}
+
+.parrallax {
+  background-image: url('../img/sky.jpg');
+  /* Full Height */
+  height: 100%;
+  /*Create the scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Turn off paralax for mobile*/
+@media only screen and (max-device-width: 1024px) {
+  .parrallax {
+    background-attachment: scroll;
+  }
+}
+
+h1 {
+  color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
