@@ -20,7 +20,40 @@ body, html {
 }
 
 h1 {
-  color: black;
+  color: whitesmoke;
   text-decoration: underline;
   text-transform: uppercase;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.nav li {
+display: inline-block;
+width: 200px;
+border-right: 1px solid
+
+
+}
+h2 {
+    color: whitesmoke;
+}
+
+#Languages [javascript]{
+    color: red:
+    }
+
+.work-ethics h3 {
+font-family: fantasy;
+
+}
+
+.box{
+background-color: whitesmoke;
+padding: 20px 5px 10px 5px;
+border: 20px; solid blue;
+margin: 40px;
+
+height: 70px;
+overflow: auto;
+
 }
