@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>{% load static %}
 
 <html>
 
@@ -8,12 +8,13 @@
   <meta name="keywords" content="Porfolio ">
   <meta name="desciption" content="Everything About Jordan Benner">
   <meta name="google-site-verification" content="Wxe45pJyhJeLlbSIKNWv2O_sToGMJSr28u4o02HQWoQ" />
-  <title>Jordan Benner</title>
+  <title>{% block title %}Jordan Benner{% endblock %}</title>
   <link rel="stylesheet" type="text/css" href="css/main.css">
 
 </head>
 
 <body class="parrallax">
+  {% block content %}
 
   <div id="top"></div>
   <header>
@@ -120,6 +121,7 @@
   <a href="#top"> to top</a>
 
   <script src="scripts/main.js"></script>
+  {% end block %}
 
 </body>
 
