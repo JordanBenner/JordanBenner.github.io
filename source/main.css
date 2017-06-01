@@ -1,0 +1,81 @@
+  .header-actions .nav-trigger {
+    margin-left: 12px;
+  }
+
+  .nav-trigger {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 46px;
+    padding: 15px 15px 0;
+    background: #b3a06c;
+  }
+
+  color: inherit;
+  text-decoration: none;
+  .intro-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: -15px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 2.14;
+    letter-spacing: .02em;
+  }
+
+  .intro-title strong {
+    display: block;
+  }
+
+  b, strong {
+    font-weight: 700;
+  }
+
+  .intro-title {
+    margin-top: 28px;
+    letter-spacing: 0;
+    padding-bottom: 36px;
+    max-width: 1060px;
+  }
+  /*responsive design*/
+
+  .header-compact {
+    max-width: 1540px;
+    padding: 10px 0;
+  }
+
+  .intro-content .shell {
+    padding: 0 25px;
+    position: relative;
+  }
+
+  .shell {
+    max-width: 1480px;
+    margin: auto;
+  }
+
+  div {
+    display: block;
+  }
+
+  h1 {
+    max-width: 1279px;
+    font-size: 50px;
+  }
+
+  .mouse-dot {
+    position: absolute;
+    display: block;
+    top: 29%;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    margin: -3px 0 0 -3px;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-animation: ani-mouse 2.5s linear infinite;
+    animation: ani-mouse 2.5s linear infinite;
+  }
