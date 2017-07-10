@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900,100italic,300italic,400,400italic,500italic,700italic,900italic);</style>
+  </defs>
+  <g id="icomoon-ignore" transform="matrix(1, 0, 0, 1, -301.885956, -261.991486)"/>
+  <rect x="-0.202" y="0.06" width="997.882" height="1002.782" style="fill: rgb(8, 8, 8);"/>
+  <path fill="#b2a16d" d="M 0.176 32.083 L 41.596 32.083 L 41.596 964.017 L 0.176 964.017 L 0.176 32.083 Z"/>
+  <path fill="#b2a16d" d="M 958.969 645.166 L 1000.388 645.166 L 1000.388 959.951 L 958.969 959.951 L 958.969 645.166 Z" bx:origin="9.577 0.797"/>
+  <path fill="#b2a16d" d="M 958.788 34.259 L 1000.207 34.259 L 1000.088 651.898 L 958.95 651.615 L 958.788 34.259 Z"/>
+  <path fill="#b2a16d" d="M 999.886 -0.309 L 999.886 34.868 L 0.602 34.868 L 0.602 -0.309 L 999.886 -0.309 Z"/>
+  <path fill="#b2a16d" d="M 999.884 958.89 L 999.884 1000.309 L -0.98 1000.309 L -0.98 958.89 L 999.884 958.89 Z"/>
+  <path d="M 418.104 -107.106 Z" style="stroke: black; fill: none;"/>
+  <text x="168.991" y="355.059" style="fill: rgb(251, 250, 250); font-size: 227.5px; white-space: pre;">Jordan</text>
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic);</style>
+  </defs>
+  <text x="144.661" y="728.875" style="fill: rgb(251, 250, 250); font-size: 227.5px; white-space: pre;">Benner</text>
+</svg>

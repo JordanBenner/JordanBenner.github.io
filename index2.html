@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="../../favicon.ico">
-
+  <link rel="icon" href="favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico" />
   <title>Developer Portfolio</title>
 
   <!-- Bootstrap core CSS -->
@@ -19,15 +19,16 @@
   <!-- Custom styles for this template -->
   <link href="source/cover.css" rel="stylesheet">
   <link href="source/my.css" rel="stylesheet">
+  <link rel="stylesheet" href="fa/css/font-awesome.min.css">
 </head>
 
 <body>
+  <!-- /.header-actions -->
   <header class="header header-compact transparent">
     <div class="shell">
-        <h1 class="logo">Jordan Benner</h1>
-      <!-- <a title="Homepage" class="logo">Jordan Benner</a> -->
+      <h1 class="logo">Jordan Benner</h1>
       <div class="header-actions">
-        <a title="Resume" href='' class="btn btn-default btn-default-alt btn-default-lg">Download CV</a>
+        <a title="Resume" href="source/Resume.docx" class="btn btn-default btn-default-alt btn-default-lg">Download CV</a>
         <a title="Navigation" href="#" class="nav-trigger">
           <span></span>
 
@@ -36,10 +37,84 @@
           <span></span>
         </a>
       </div>
-      <!-- /.header-actions -->
+
     </div>
     <!-- /.shell -->
   </header>
+  <div class="sidebar-outer">
+    <div class="sidebar">
+      <ul class="widgets">
+        <li class="widget widget-nav">
+          <nav class="nav">
+            <ul class="sidenav">
+              <li>
+                <a title="close" href="" class="nav-close">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a title="projects" href='#projects' onclick="close_sidebar()" class='page-ref'>Projects</a>
+
+                </a>
+              </li>
+              <li>
+                <a title="education" href='#education' onclick="close_sidebar()" class='page-ref'>Education</a>
+
+                </a>
+              </li>
+              <li>
+                <a title="about" href='#experience' onclick="close_sidebar()" class='page-ref'>Experience</a>
+
+                </a>
+              </li>
+              <li>
+                <a title="about" href='#about me' onclick="close_sidebar()" class='page-ref'>About Me</a>
+
+                </a>
+              </li>
+              <li>
+                <a title=""></a>
+
+                </a>
+              </li>
+
+            </ul>
+
+            <div class="socials">
+              <span class="socials-label">Contact Me</span>
+
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/jordan.benner.88" class="link-public" target="_blank" rel="nofollow">
+                    <i class="fa fa-facebook fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="link-public" target="_blank" rel="nofollow">
+                    <i class="fa fa-twitter fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/jordan-benner/" class="link-public" target="_blank" rel="nofollow">
+                    <i class="fa fa-linkedin fa-lg"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/JordanBenner" class="link-public" target="_blank" rel="nofollow">
+                    <i class="fa fa-github fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.socials -->
+          </nav>
+          <!-- /.nav -->
+        </li>
+      </ul>
+    </div>
+  </div>
   <!-- /.header -->
 
   <!-- <div class="masthead clearfix">
@@ -64,7 +139,7 @@
   <div class="site-wrapper">
 
     <div class="site-wrapper-inner">
-
+      <!--.intro-entry -->
       <div class="cover-container">
         <div class="inner cover">
           <div class="row1">
@@ -79,8 +154,8 @@
                     Full-Stack  <strong> Software Developer</strong>			</h1>
                   <!-- /.intro-title -->
                   <div class="intro-entry">
-                    <p>Love building things<br/>Aviation Enthusiast			</p>
-        </div>
+                    <p>Love building things<br/>Aviation Enthusiast </p>
+                  </div>
 
 
                 </div>
@@ -92,64 +167,384 @@
             </div>
             <!-- /.shell -->
           </div>
-          <div class="floaty"></div>
+          <div class="floaty hidden-md-down"></div>
           <div>
             <div class="row2">
               <div class="col-lg-12">
                 <div>
-                  <h2 class="mission">Mission Statement</h2>
+                  <h2 class="section-head">Get an idea of what I have done.</h2>
                   <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                 </div>
               </div>
             </div>
-            <div class="row3 row">
-              <div class="col-lg-6">
-                <h2>Black Jack</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <div class='floaty4 hidden-md-down'></div>
+            <div class="row3 row" id="projects">
+              <div class="col-lg-6 col-md-12">
+
+                <a href="http://www.jordan-benner.com/bj-cardgame-portfolio/" class="blackjack">
+                  <span><span>Play Demo</span></span>
+                </a>
+
               </div>
-              <div class="col-lg-6">
-                <h2>Django Project</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <div class="col-lg-6 col-md-12">
+                <div class="code-cover cover1">
+                  <div>
+                    <a href="" onclick="show_code(event, 'cover1')">See Code</a>
+                  </div>
+                  <iframe class="frame1" height='400' scrolling='no' title='PjwBRB' src='//codepen.io/JordanBenner/embed/PjwBRB/?height=400&theme-id=0&default-tab=js&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: calc(100% - 40px);'>See the Pen <a href='https://codepen.io/JordanBenner/pen/PjwBRB/'>PjwBRB</a> by Jordan Benner (<a href='https://codepen.io/JordanBenner'>@JordanBenner</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+                </div>
               </div>
 
             </div>
-            <div class="row4">
+            <div class='floaty3 hidden-md-down'></div>
+            <div class='row4'>
               <div class="row">
-                <div class="col-lg-6">
-                  <img src='images/project.jpeg' class="intro-image" alt='desk' />
+                <div class="col-lg-6 col-md-12">
+                  <a href='http://www.jordan-benner.com/Kodachrome/old_stuff/' class='kodachrome'>
+                    <span><span>Browse Webpage</span></span>
+                  </a>
                 </div>
-                <div class="col-lg-6">
-                  <h2>React.js Project</h2>
-                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <div class="col-lg-6 col-md-12">
+                  <div class='code-cover cover2'>
+                    <div>
+                      <a href="" onclick="show_code(event, 'cover2')">See Code</a>
+                    </div>
+                    <iframe class="frame2" height='400' scrolling='no' title='kodachrome' src='//codepen.io/JordanBenner/embed/XgJBMJ/?height=400&theme-id=0&default-tab=html&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: calc(100% - 40px);'>See the Pen <a href='https://codepen.io/JordanBenner/pen/XgJBMJ/'>kodachrome</a> by Jordan Benner (<a href='https://codepen.io/JordanBenner'>@JordanBenner</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class='floaty4 hidden-md-down'></div>
             <div class="row5">
               <div class="col-lg-12">
                 <div>
-                  <h2 class="">Mission Statement</h2>
-                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                  <h2 class="section-head">Education</h2>
+                  <p></p>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="mastfoot">
-            <div class="inner">
+            <!-- <div class='row6'> -->
+            <!-- <div class='floaty5'></div> -->
+            <div class="shell row6 row" id='education'>
+              <div class="col-sm-12 col-lg-4">
+                <div class="service-inner extended">
+                  <h3>
+                  Digital Crafts
+                  <small>Coding Bootcamp</small>
+                </h3>
 
+                  <p>Fully immersive sixteen week coding bootcamp that focuses on full stack JavaScript and Python development.</p>
+                  <ul class="list-dashes list-dashes-alt">
+                    <li>Front-End Development</li>
+
+                    <li>Back-End Development</li>
+
+                    <li>Smart Algorithms</li>
+                  </ul>
+                  <!-- /.list-dashes -->
+
+                  <div class="service-actions">
+                    <a title="Front-end development" href="http://www.digitalcrafts.com/" class="btn btn-default btn-alt">
+                      <span class="btn-inner">
+                      Learn More
+                    </span>
+                    </a>
+                  </div>
+                  <!-- /.service-actions -->
+                </div>
+                <!-- /.service-inner -->
+              </div>
+              <div class="col-sm-12 col-lg-4">
+                <div class="service-inner">
+                  <h3>
+                  MOOC'S
+                  <!-- <small>Data Science</small> -->
+                </h3>
+
+                  <p>edX is a massive open online course provider. It hosts online university-level courses in a wide range of disciplines to a worldwide student body, including some courses at no charge.</p>
+                  <ul class="list-dashes list-dashes-alt">
+                    <li>Introduction to Computer Science<br/>and Programming Using Python</li>
+
+                    <li>Python for Data Science</li>
+
+                    <li>Secure and Reliable Sites</li>
+                  </ul>
+                  <!-- /.list-dashes -->
+
+                  <div class="service-actions">
+                    <a title="Wordpress development" href="https://mooc.org/" class="btn btn-default">Learn More</a>
+                  </div>
+                  <!-- /.service-actions -->
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-4">
+                <div class="service-inner">
+                  <h3>LoneStar College</h3>
+                  <!-- <small>Drafting And Design</small> -->
+                  <p>The AutoCAD Draftsman certificate involves hands-on training with AutoDesk, one of the most popular computerized drafting applications used in manufacturing and construction.</p>
+                  <ul class="list-dashes list-dashes-alt">
+                    <li>Drafting And Design</li>
+
+                    <li>3D rendering proccess</li>
+
+                    <li>Schmatic Layouts</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row8a row">
+              <div class="col-lg-12">
+                <h5 class="title">Experience</h5>
+                <div class="slide-nav-wrapper">
+                  <div class="slide-nav">
+                  <span class="moving"></span>
+                  <a class="slide slide1" href="" onclick="show_slide(event, '.slide1')">
+                    01
+                  </a>
+                  <a class="slide slide2" href="" onclick="show_slide(event, '.slide2')">
+                    02
+                  </a>
+                  <a class="slide slide3" href="" onclick="show_slide(event, '.slide3')">
+                    03
+                  </a>
+                  <a class="slide slide4" href="" onclick="show_slide(event, '.slide4')">
+                    04
+                </div>
+                </div>
+                <ul class="slides">
+                  <li class="slide slide1">
+                    <img src='/images/project.jpeg' class="row8-image" style="width: 50%"/>
+                    <h3>Growth Property Investors</h3>
+
+                    <p>Some Content</p>
+
+                    <ul class="list-dashes">
+                      <li></li>
+
+                      <li></li>
+
+                      <li></li>
+                    </ul>
+                    <!-- /.list-dashes -->
+                  </li>
+                  <!-- /.slide -->
+
+                  <li class="slide slide2">
+                    <h3>TMC Transportation</h3>
+
+                    <p>Some Content</p>
+
+                    <ul class="list-dashes">
+                      <li></li>
+
+                      <li></li>
+
+                      <li></li>
+                    </ul>
+                    <!-- /.list-dashes -->
+                  </li>
+                  <!-- /.slide -->
+
+                  <li class="slide slide3">
+                    <h3>Global Drilling Support</h3>
+
+                    <p>Some Content</p>
+
+                    <ul class="list-dashes">
+                      <li></li>
+
+                      <li></li>
+
+                      <li></li>
+                    </ul>
+                    <!-- /.list-dashes -->
+                  </li>
+                  <!-- /.slide -->
+
+                  <li class="slide slide4">
+                    <h3>Weatherford</h3>
+
+                    <p>Some Content</p>
+
+                    <ul class="list-dashes">
+                      <li></li>
+
+                      <li></li>
+
+                      <li></li>
+                    </ul>
+                    <!-- /.list-dashes -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row8 row" id="experience" style="display: none;">
+              <div class="col-lg-6 col-md-12">
+                <section class="section-benefits animated animated-left">
+                  <div class="shell">
+                    <div class="section-content extended">
+                      <h5 class="title">Experience</h5>
+                      <!-- /.title -->
+
+                      <div class="slider slider-benefits">
+                        <div class="slider-paging">
+                          <div class="slider-paging-inner"></div>
+                          <!-- /.slider-paging-inner -->
+                          <span class="slider-paging-moving"></span>
+                          <a class="slider-paging-current slide1" href="" onclick="show_slide(event, '.slide1')">
+                            01
+                          </a>
+                          <a class="slider-paging-current slide2" href="" onclick="show_slide(event, '.slide2')">
+                            02
+                          </a>
+                          <a class="slider-paging-current slide3" href="" onclick="show_slide(event, '.slide3')">
+                            03
+                          </a>
+                          <a class="slider-paging-current slide4" href="" onclick="show_slide(event, '.slide4')"style='left: 0px'>
+                            04
+                          </a>
+                        </div>
+                        <!-- /.slider-paging -->
+                        <div class="slider-clip">
+                          <ul class="slides">
+                            <li class="slide slide1">
+                              <h3>Growth Property Investors</h3>
+
+                              <p>Some Content</p>
+
+                              <ul class="list-dashes">
+                                <li></li>
+
+                                <li></li>
+
+                                <li></li>
+                              </ul>
+                              <!-- /.list-dashes -->
+                            </li>
+                            <!-- /.slide -->
+
+                            <li class="slide slide2">
+                              <h3>TMC Transportation</h3>
+
+                              <p>Some Content</p>
+
+                              <ul class="list-dashes">
+                                <li></li>
+
+                                <li></li>
+
+                                <li></li>
+                              </ul>
+                              <!-- /.list-dashes -->
+                            </li>
+                            <!-- /.slide -->
+
+                            <li class="slide slide3">
+                              <h3>Global Drilling Support</h3>
+
+                              <p>Some Content</p>
+
+                              <ul class="list-dashes">
+                                <li></li>
+
+                                <li></li>
+
+                                <li></li>
+                              </ul>
+                              <!-- /.list-dashes -->
+                            </li>
+                            <!-- /.slide -->
+
+                            <li class="slide slide4">
+                              <h3>Weatherford</h3>
+
+                              <p>Some Content</p>
+
+                              <ul class="list-dashes">
+                                <li></li>
+
+                                <li></li>
+
+                                <li></li>
+                              </ul>
+                              <!-- /.list-dashes -->
+                            </li>
+                            <!-- /.slide -->
+                          </ul>
+                          <!-- /.slides -->
+                        </div>
+                        <!-- /.slider-clip -->
+                      </div>
+                      <!-- /.slider -->
+                    </div>
+                    <!-- /.section-content -->
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <img src='/images/project.jpeg' class="row8-image" style="width: 100%"/>
+              </div>
+            </div>
+            <div class='floaty8'></div>
+            <div class='row7 row' id='about'>
+              <div class="col-lg-12">
+                <h3>About Me</h3>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                  Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                  1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                  "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+              </div>
+            </div>
+            <div class='row9 row' id='footer'>
+              <div class="col-lg-12 parrallax">
+                <h3 class='footer'>Thanks for checking me out!</h3>
+                <a title="Hire" href="" class="btn btn-default btn-default-alt">Set up an interview.</a>
+              </div>
+
+            </div>
+            <div class="socials-bottom">
+              <span class="socials-label-bottom"></span>
+
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/jordan.benner.88" class="link-public" target="_blank" rel="nofollow">
+                    <i class="fa fa-facebook fa-lg" style='color: #a4977d;'></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="link-public" target="_blank" rel="nofollow">
+                    <i class="fa fa-twitter fa-lg" style='color: #a4977d;'></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/jordan-benner/" class="link-public" target="_blank" rel="nofollow">
+                    <i class="fa fa-linkedin fa-lg" style='color: #a4977d;'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/JordanBenner" class="link-public" target="_blank" rel="nofollow">
+                    <i class="fa fa-github fa-lg" style='color: #a4977d;'></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
 
-        <!-- Bootstrap core JavaScript
+            <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="lightbox2-master/dist/js/lightbox.js"></script>
-        <!-- bootstrap javascript -->
-        <script src="tether/js/tether.min.js"></script>
-        <script src="bootstrap4/js/bootstrap.min.js"></script>
-        <script src="source/typed.min.js"></script>
-        <script src="source/main.js"></script>
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <script src="lightbox2-master/dist/js/lightbox.js"></script>
+            <!-- bootstrap javascript -->
+            <script src="tether/js/tether.min.js"></script>
+            <script src="bootstrap4/js/bootstrap.min.js"></script>
+            <script src="source/typed.min.js"></script>
+            <script src="source/main.js"></script>
 </body>
 
 </html>
